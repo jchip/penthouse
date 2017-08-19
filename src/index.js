@@ -191,7 +191,7 @@ const generateCriticalCssWrapped = async function generateCriticalCssWrapped (
         // object, needs to be stringified
         // JSON.stringify(options.customPageHeaders || {}),
         customPageHeaders: options.customPageHeaders,
-        debugMode: m.DEBUG
+        debuglog
       })
     } catch (e) {
       stdErr += e
