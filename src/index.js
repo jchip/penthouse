@@ -1,6 +1,6 @@
 import fs from 'fs'
 import apartment from 'apartment'
-import cssAstFormatter from 'css'
+import cssAstFormatter from 'css-fork-pocketjoso'
 
 import generateCriticalCss from './core'
 import normalizeCss from './normalize-css'
